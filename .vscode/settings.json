@@ -1,0 +1,10 @@
+{
+    "python.pythonPath": "${workspaceFolder}/server/venv/bin/python",
+    "python.venvPath": "${workspaceFolder}/server/venv",
+    "python.formatting.provider": "yapf",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "files.exclude": {
+        "**/*.pyc": true
+    }
+}

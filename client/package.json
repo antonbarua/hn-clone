@@ -1,13 +1,28 @@
 {
+  "name": "hn-clone",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start-dev": "webpack-dev-server --hot --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
-    "react": "^16.8.3",
-    "react-dom": "^16.8.3"
+    "prop-types": "^15.7.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0",
-    "webpack": "^4.29.5"
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "@hot-loader/react-dom": "^16.8.4",
+    "babel-loader": "^8.0.5",
+    "react-hot-loader": "^4.8.0",
+    "sass": "^1.17.3",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1",
+    "webpack-merge": "^4.2.1"
   }
 }
